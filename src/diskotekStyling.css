@@ -1,0 +1,31 @@
+.button {
+    -fx-background-color: #ff065b; /* Set the background color */
+    -fx-text-fill: white; /* Set the text color */
+    -fx-font-size: 14pt; /* Set the font size */
+    -fx-font-weight: bold; /* Set the font weight */
+    -fx-padding: 10px 20px; /* Set the padding */
+    -fx-background-radius: 7px;
+
+
+
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://nuken.xyz/editor/styles/fonts/poppins.ttf');
+}
+
+.label {
+   -fx-text-fill: #ff065b;
+   -fx-font-weight: bold;
+   -fx-font-family: 'Poppins';
+   -fx-font-size:14px;
+}
+
+.textField {
+   -fx-background-color: #ffffff; /* sets the background color */
+   -fx-border: none; /* sets the border color */
+   -fx-padding: 5px; /* sets the padding */
+   -fx-font-size: 13px; /* sets the font size */
+    -fx-background-radius: 20px;
+}
